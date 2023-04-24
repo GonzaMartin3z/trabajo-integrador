@@ -9,108 +9,151 @@
   </head>
   <body>
  
-        <nav class="navbar navbar-expand-lg">
-          <img class="img-fluid"  src="img/codoacodo.png" alt="Bootstrap" width="100" height="65">
-          <div class="container-fluid">
-            <a class="navbar-brand text-light" href="#">Conf Bs As</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Los oradores</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">El lugar y la fecha</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Conviertete en orador</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-success" href="#">Comprar tickets</a>
-                </li>
-               </ul>
+      <nav class="navbar navbar-expand-lg">
+  <img class="img-fluid" src="img/codoacodo.png" alt="Bootstrap" width="100" height="65">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light" href="#">Conf Bs As</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link text-light" aria-current="page" href="#">La conferencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #6b7280;">Los oradores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #6b7280;">El lugar y la fecha</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #6b7280;">Conviertete en orador</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-success" href="#">Comprar tickets</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+        <div class="card text-white border-0">
+          <div class="position-relative">
+            <img class="fluid-img" src="img/ba1.jpg" alt="">
+            <div class="overlay"></div>
+          </div>
+          <div class="card-img-overlay col-md-5 offset-md-6 col-lg-5 offset-lg-6 d-flex align-items-center justify-content-end">
+            <div class="text-end fs-4">
+              <h1 class="card-title">Conf Bs As</h1>
+              <p class="card-text">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+              <button type="button" class="btn btn-1">Quiero ser orador</button>
+              <button type="button" class="btn btn-success">Comprar tickets</button>
             </div>
           </div>
-        </nav>
+        </div>
         
-       <div class="picture-bsas">
-        <img class="img-fluid" src="img/ba1.jpg" alt="">
-       </div>          
-          
+    
 
-       <div class="container text-center">
-        <div class="titulo-orador"><p ><small>CONOCE A LOS</small></p>
+       <div class="container oradores">
+        <div class="titulo-orador text-dark"><p ><small>CONOCE A LOS</small></p>
         <h2>ORADORES</h2>
       </div>
         <div class="row">
-          <div class="col">
+          <div class="col col-lg-4 col-md-12 col-md-6 p-3">
             <div class="card" style="width: 18rem;">
-              <img src="img/steve.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+              
+              <img src="img/steve.jpg" alt="...">          
+
+              <div class="card-body" style="float:left;">
+                <span class="JS"><small><strong>JavaScript</strong></small></span>
+                <span class="React"><small><strong>React</strong></small></span>              
                 <h4>Steve Jobs</h4>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos veniam odio tenetur possimus perferendis porro enim repellat! Accusantium, deserunt</p>
               </div>
             </div>
-            
-          </div>
-          <div class="col">
+            </div>
+          <div class="col col-lg-4 col-md-12 p-3 col-md-6">
             <div class="card" style="width: 18rem;">
-              <img src="img/bill.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
+              <img src="img/bill.jpg" alt="...">
+              <div class="card-body" style="float:left;">
+                <span class="JS"><small><strong>JavaScript</strong></small></span>
+                <span class="React"><small><strong>React</strong></small></span>   
                 <h4>Bill Gates</h4>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos veniam odio tenetur possimus perferendis porro enim repellat! Accusantium, deserunt.</p>
               </div>
             </div>
-            
-          </div>
-          <div class="col">
+            </div>
+          <div class="col col-lg-4 col-md-12 p-3 col-md-6">
             <div class="card" style="width: 18rem;">
-              <img src="img/ada.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
+              <img src="img/ada.jpeg" alt="...">
+              <div class="card-body" style="float:left;">
+                <span class="neg" ><small><strong>Negocios</strong></small></span>
+                <span class="star"><small><strong>Startups</strong></small></span>   
                 <h4>Ada Lovelace</h4>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, eos veniam odio tenetur possimus perferendis porro enim repellat! Accusantium, deserunt.</p>
               </div>
             </div>
-           
-          </div>
+           </div>
         </div>
       </div>
 
-        
-          <div class="row">
-            <div class="col-6">
-              <img class="img-fluid" src="img/honolulu.jpg" alt="">
-            </div>
-            <div class="col-6 text-col text-light">
-              <h4>Bs As - Octubre</h4>
-              <p>Buenos Aires es la provincia y localidad mas grandel del estado de Argentina. En los Estados Unidos, Honolulu, es la</p>
-              <p>más sureña de entre las principales ciudades estadounidenses. Aunquie el nombre de Honolulu re refiere al área</p>
-              <p>urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-</p>
-              <p>condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie)</p>
-            </div>
+          
+        <div class="row row-no-gutters g-0">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 ">
+           <img src="img/honolulu.jpg" class="img-fluid" alt="Honolulu" >
           </div>
-        <div class="container">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, corrupti veritatis neque voluptatem odio pariatur. Temporibus corrupti tempora reiciendis autem accusantium velit suscipit expedita dignissimos aliquid, error porro fugiat culpa?
-            Sint, ea alias. Alias reprehenderit hic, quod sint impedit itaque, enim non natus ad excepturi blanditiis voluptatum. Obcaecati similique, asperiores a nesciunt sed ratione minima porro numquam officiis, modi quasi!
-            Asperiores iure, labore quisquam similique quia eum fugiat quibusdam corrupti repudiandae? Repellendus velit eius officia illo veniam? Repudiandae voluptatum minus, rerum totam cum fugit adipisci, a nisi est voluptate tenetur.
-            Magni labore nisi provident est quibusdam facere, vitae quis eos temporibus at earum minima voluptas officiis nobis corporis necessitatibus dicta optio! Quasi, accusamus! Non aut consequuntur veniam commodi a soluta!
-            Est nulla assumenda consequatur laborum! Mollitia optio animi modi porro nulla quis doloribus deserunt rem dolores soluta, fugiat maxime magnam vel exercitationem quia blanditiis. Sequi eius officia quia accusamus molestias.
-            Vero, veniam beatae. Ipsam totam nam, tenetur numquam nihil laboriosam earum aspernatur quasi dolores odit quia debitis eaque corrupti labore enim mollitia quidem asperiores ipsa dolorum ipsum consequatur sit. Autem!
-            Exercitationem dolore adipisci architecto ut ratione animi facere nostrum ad dolores corrupti atque, aliquam soluta error explicabo deserunt? Ex ab exercitationem nulla dolore ipsa consequatur quod, ullam perferendis quas maiores?
-            Dolorem ab culpa dolores, ipsum in cumque non fugit natus, aliquid unde consequatur. Aliquam accusamus a molestias cupiditate dolores rerum totam architecto velit, est, nobis et recusandae vero facilis numquam!
-            Doloremque adipisci labore possimus officia pariatur fugiat perspiciatis! Dolor molestias corporis enim voluptate a dolorem reiciendis non dicta quod. Blanditiis nam doloribus quia corporis atque qui dolor harum doloremque porro.
-            Iure excepturi suscipit ullam sed corporis, totam dolorem rem qui pariatur aut officiis et rerum dolorum, natus possimus exercitationem. Quia similique iure numquam eius ab molestiae odio impedit voluptate reprehenderit!
-            Fugiat, accusantium! Ipsa sequi rerum pariatur. Asperiores consequuntur fugiat aut ducimus, obcaecati, rerum vitae culpa repellat distinctio at nisi! Fugit, omnis quibusdam natus hic ad placeat dolore quidem optio voluptatibus!
-            Eveniet suscipit officiis alias voluptatibus, facilis nemo similique quae accusamus fugiat commodi repellat natus voluptate provident corporis, culpa earum. Modi in praesentium nihil. Repellat sed quidem consequatur, voluptates animi et?
-            Voluptatum esse rerum maiores sapiente, voluptas, eum eligendi optio ad eos molestias nihil illum eaque voluptate facilis atque error similique numquam! Autem voluptatibus voluptas debitis nihil id iusto quod ipsa.
-            Rerum iste quam laud</p>
+          
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 bg-dark text-light p-3 ">
+            <h1>Bs As - Octubre</h1>
+            <p>
+              Buenos Aires es la provincia y localidad más grande del estado de
+              Argentina. En los Estados Unidos, Honolulu es la más sureña de
+              entre las principales ciudades estadounidenses. Aunque el nombre
+              de Honolulu se refiere al área urbana en la costa sureste de la
+              isla de Oahu, la ciudad y el condado de Honolulu han formado una
+              ciudad condado consolidada que cubre toda la isla (aproximadamente
+              600 km² de superficie).
+            </p>
+            <button class="btn-2 text-light">Conocé más</button>  
+          </div>
 
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-3">
+            
+          </div>
+          
+          <div class="orador col-6 text-dark p-3">
+            <p><SMAll> CONVIÉRTETE EN UN</SMAll></p>
+            <h2>ORADOR</h2>
+            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+            <form>
+              <div class="input-group">              
+                <input type="text" class="form-control input-sm" placeholder="Nombre" />       
+                <span class="input-group-btn" style="width:30px;"></span>          
+                <input type="text" class="form-control input-sm" placeholder="Apellido" />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
+                  <p style="text-align: left;"><small>Recuerda incluir un título para tu charla</small></p>
+
+                </div>
+                <button type="submit" class="btn btn-area w-100 m-1 text-light">Enviar</button>
+                                 
+                </div>
+  
+            </form>
+          </div>
+          <div class="col-3"></div>
         </div>
+      </div>
+         
+    </div> 
+  </div>     
 
         <footer>
           <ul class="footer nav justify-content-center p-3  ">

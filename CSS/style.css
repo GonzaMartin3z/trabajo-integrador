@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
 .navbar{
 
     background-color: rgb(53, 58, 64);
@@ -6,28 +11,6 @@
 
 .nav-link {
     color: whitesmoke;
-}
-
-.text-bsas{
-    
-}
-
-
-.card-img{
-  background-repeat: repeat;
-  background-position:top
-}
-
-.picture-bsas{
-
-  position: top;
-}
-
-.text-col {
-
-  background-color: rgb(53, 58, 64);
-  text-align: justify;
-  padding: 20px;
 }
 
 .footer{
@@ -41,7 +24,7 @@
   text-align: left;
 }
 
-.text-center{
+.oradores{
   align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -50,4 +33,102 @@
 .titulo-orador{
 
   text-align:center
+  
 }
+
+.col {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-2{
+  background-color: rgb(53, 58, 64);
+  border: 1px solid rgb(211, 211, 211);
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.JS{
+  background-color: rgb(250, 192, 20);
+  border: 1px;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  
+}
+
+.React{
+  background-color: rgb(30, 155, 183) ;
+  border: 1px;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  color: aliceblue;
+  
+}
+
+.neg{
+  background-color: rgb(107, 116, 125) ;
+  border: 1px;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  color: aliceblue;
+  
+}
+
+.star{
+  background-color: rgb(209, 57, 72) ;
+  border: 1px;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  color: aliceblue;
+  
+}
+
+.btn-area{
+  color: white;
+  background-color: #3CC93F;
+ 
+}
+
+.orador{
+  text-align: center;
+}
+.form-control{
+  size-adjust: 3px;
+}
+
+.img-fluid.rounded {
+  filter: blur(10px) opacity(0.8);
+}
+
+.btn-1{
+    border-color: white;
+    color: white;
+   
+  }
+
+  .position-relative {
+    position: relative;
+  }
+  
+  .overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
+  }
+
+
